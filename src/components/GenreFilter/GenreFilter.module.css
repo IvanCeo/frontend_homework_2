@@ -1,25 +1,27 @@
 .genreFilter {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
+    display: flex;                /* Горизонтальное расположение */
+    flex-wrap: wrap;              /* Перенос на новую строку при нехватке места */
+    gap: 0.8rem;                 /* Расстояние между кнопками */
+    margin: 1.5rem 0;            /* Отступ сверху и снизу */
+    /* justify-content: center;     Центрирование кнопок */
   }
   
   .genreButton {
     padding: 8px 16px;
-    border: 1px solid #ddd;
-    background-color: #fff;
-    border-radius: 20px;
+    /* border: 1px solid #ffffff; */
+    background-color: #550606;
+    /* border-radius: 10px; */
     cursor: pointer;
     font-size: 14px;
   }
   
   .genreButton:hover {
-    background-color: #f0f0f0;
+    background-color: #920606;
   }
   
   .genreButton.active {
-    background-color: #0066cc;
-    color: white;
-    border-color: #0066cc;
+    background-color: #d10000; /* Синий фон */
+    /* border-color: #4361ee;    Синяя граница */
+    color: white;            /* Белый текст */
+    font-weight: 500;       /* Полужирный */
   }

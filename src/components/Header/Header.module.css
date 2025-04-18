@@ -30,7 +30,29 @@
     border-radius: 4px;           /* Скругленные углы */
     transition: all 0.3s ease;    /* Плавные анимации */
   }
-  
+  /* 4. Состояние при наведении на кнопку */
   .navButton:hover {
-    color: #0066cc;
+    background-color: #333;       /* Темно-серый фон */
+    color: #fff;                 /* Белый текст */
+  }
+  
+  /* 5. Стиль для активной кнопки (текущая страница) */
+  .navButton.active {
+    background-color: #4361ee;   /* Синий фон */
+    color: white;
+    font-weight: 500;
+  }
+  
+  /* 6. Адаптивность для мобильных устройств */
+  @media (max-width: 600px) {
+    .nav {
+      flex-direction: column;    /* Вертикальное расположение кнопок */
+      gap: 0.5rem;              /* Уменьшаем расстояние */
+      padding: 0.5rem;          /* Добавляем отступы */
+    }
+    
+    .navButton {
+      width: 100%;             /* На всю ширину */
+      text-align: center;      /* Центрируем текст */
+    }
   }
