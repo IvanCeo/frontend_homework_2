@@ -1,7 +1,7 @@
 .movieCard {
     border: 1px solid #333;
     border-radius: 8px;
-    overflow: hidden; /* Важно для скругления углов изображения */
+    overflow: hidden; 
     transition: all 0.3s ease;
     background-color: #1e1e1e;
     color: #f0f0f0;
@@ -9,10 +9,10 @@
   
   .imageContainer {
     height: 0;
-    padding-bottom: 56.25%; /* Соотношение 2:3 для кинопостеров */
+    padding-bottom: 56.25%; 
     position: relative;
     overflow: hidden;
-    border-radius: 8px 8px 0 0; /* Скругление только сверху */
+    border-radius: 8px 8px 0 0; 
   }
   
   .movieImage {
@@ -26,10 +26,9 @@
   }
 
   .movieCard:hover .movieImage {
-    transform: scale(1.03); /* Эффект увеличения при наведении */
+    transform: scale(1.03);
   }
   
-  /* Остальные стили остаются без изменений */
   .movieTitle {
     margin: 10px;
     font-size: 18px;

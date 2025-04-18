@@ -20,7 +20,7 @@
   }
   
   .genreButton.active {
-    background-color: #d10000; /* Синий фон */
+    background-color: #d10000; /* Фон */
     /* border-color: #4361ee;    Синяя граница */
     color: white;            /* Белый текст */
     font-weight: 500;       /* Полужирный */

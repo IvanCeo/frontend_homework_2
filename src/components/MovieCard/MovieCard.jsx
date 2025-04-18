@@ -9,7 +9,7 @@ const MovieCard = ({ title, genre, duration, image }) => {
           alt={title}
           className={styles.movieImage}
           onError={(e) => {
-            e.target.src = 'https://i.ebayimg.com/images/g/TtIAAOSwBDZmH9ix/s-l1600.png'; // Запасное изображение
+            e.target.src = 'https://i.ebayimg.com/images/g/TtIAAOSwBDZmH9ix/s-l1600.png'; 
             e.target.alt = 'Изображение не найдено :('
           }}
         />

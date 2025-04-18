@@ -13,7 +13,7 @@ const App = () => {
       title: 'Матрица',
       genre: 'Боевик',
       duration: '136 мин.',
-      image: '/images/matrix.webp' // Путь от public/
+      image: '/images/matrix.webp' 
     },
     {
       id: 2,
@@ -96,7 +96,7 @@ const App = () => {
               title={movie.title}
               genre={movie.genre}
               duration={movie.duration}
-              image={movie.image} // ✅ Добавлена эта строка
+              image={movie.image}
             />
           ))}
         </div>
